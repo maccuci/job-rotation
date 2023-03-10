@@ -6,7 +6,6 @@ int main()
     // 1 = a 2 = b 3 = c 4 = d 5 = e 6 = f
     int choice, num, c;
     int predecessor = 0, predecessor1 = 0, later = 0;
-    int anterior1 = 2, anterior2 = 10, proximo;
     printf("Escolha um caso: ");
     scanf("%d", &choice);
 
@@ -46,7 +45,7 @@ int main()
         break;
     case 6:
         printf("Digite um números: ");
-        scanf("%d",&predecessor1);
+        scanf("%d", &predecessor1);
         if (predecessor1 % 2 == 0)
         {
             later = predecessor1 + 2;
